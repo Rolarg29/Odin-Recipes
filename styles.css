@@ -1,0 +1,44 @@
+body{
+    background-image: url(bgfood.jpeg);
+    background-size:cover;
+    font-family: system-ui;
+
+}
+
+#projectTitle { /*Titulo principal*/
+    color:#cf5e0d;
+    text-align: center;
+    font-size: 70px;
+    margin: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ul{ /*borde naranja claro alrededor de toda la lista*/
+    background-color:rgba(255, 127, 80, 0.5);
+    padding: 35px;
+    color: black;
+    border-radius: 25px;
+}
+
+ul li{ /*fondo naranja fuerte a los elementos de la lista*/
+    padding: 22px;
+    align-items: center;
+    background-color:rgb(245, 68, 0, 0.6);
+    color: black;
+}
+
+ul li.item1{/*bordes redonddeados superiores del centro*/
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+ul li.item3{/*bordes redonddeados inferiores del centro*/
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.recipe{/*color de las recetas*/
+    color:rgb(66, 233, 194);
+    font-size: 30px;
+}
