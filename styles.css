@@ -29,7 +29,8 @@ ul li{ /*fondo naranja fuerte a los elementos de la lista*/
     padding: 22px;
     align-items: center;
     background-color:rgb(245, 68, 0, 0.6);
-    color: black;
+    color: #7257ec;
+    list-style-type:circle;
 }
 
 ul li.item1{/*bordes redonddeados superiores del centro*/
@@ -43,6 +44,6 @@ ul li.item3{/*bordes redonddeados inferiores del centro*/
 }
 
 .recipe{/*color de las recetas*/
-    color:rgb(66, 233, 194);
+    color:rgb(42, 245, 245);
     font-size: 30px;
 }
